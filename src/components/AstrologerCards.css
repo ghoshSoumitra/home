@@ -1,0 +1,77 @@
+.masonry-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display three columns */
+    gap: 20px; /* Set the gap between cards */
+    margin-top: 5vh;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 7px 7px 7px rgba(55, 5, 5, 0.634);
+  }
+  
+  .card-image {
+    width: 100%;
+ 
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 10px;
+    margin-top: -32vh;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .card-specialty {
+    margin: 0;
+    font-size: 14px;
+    color: #FFDBC0;
+    ;
+  }
+  .call{
+    display: flex;
+    flex-direction: row;
+  }
+  .call p{
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .call img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 1vh;
+  }
+  .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+  }
+  .live{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 13vw;
+    margin-top: -3vh;
+  }
+  .spcl{
+    /* margin-top: -27vh; */
+    color: white;
+    padding-left: 5px;
+  }
+  #div{
+    background-color: rgb(19, 13, 5);
+  }
+  .spcl2{
+    color:#FFDBC0;;
+    font-weight: bold;
+  }

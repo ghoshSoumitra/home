@@ -1,0 +1,17 @@
+#imgcrousal{
+    margin-left: 40vw;
+}
+.btn{
+    margin-right: 3vw;
+    border-radius: 50%;
+    background-color: #eaa9a9;
+    width: 2vw;
+    height: 4vh;
+    box-shadow: 1px 1px 4px #2f1313;
+}
+.video-carousel-container {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the carousel horizontally */
+  }
+ 

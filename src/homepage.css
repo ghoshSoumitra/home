@@ -1,0 +1,146 @@
+#welcome{
+    font-size: 3.5rem;
+    margin-top: 13vh;
+    margin-left: 0vw;
+    width: 100vw;
+    color: white;
+    font-weight: bold;
+}
+#subpara{
+    margin-left: 6vw;
+    color: white;
+}
+#sub{
+    margin-left: 14vw;
+    color: white;
+}
+#btn{
+    text-align: center;
+    border: 2px solid orange;
+    background-color: coral;
+    border-radius: 30px;
+    height: 7vh;
+    width: 12vw;
+    font-size: 1.5rem;
+    margin-left: 13vw;
+    color: white;
+    box-shadow: 1px 1px 5px white;
+}
+.vstack{
+    display: flex !important;
+    flex-direction: row !important;
+    margin-top: 7vh;
+
+    width: 100vw;
+    margin-left: -30vw;
+}
+.box{
+display: flex;
+flex-direction: row;
+width: 18vw;
+color: white;
+
+}
+.box img{
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+}
+#main{
+    background-color:  #A74800;
+    background-image: url('./assets/purple.png');
+    background-blend-mode: multiply;
+}
+#sun{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+
+}
+.star2{
+    margin-left: 37vw;
+    margin-top: 5vh;
+    font-size: 1.3rem;
+}
+.star p{
+    margin-left: 10px;
+    margin-right: 10px;
+    color:  #D97122;
+    font-weight: bold;
+}
+#banner{
+    width: 99vw;
+    height: 56vh;
+    margin-top: 7vh;
+}
+#main2{
+    background-color:  #FFEFE3;
+    width: 90vw;
+    margin-left: 5vw;
+}
+#images{
+    margin-top: 5vh;
+}
+#fill{
+    display: flex;
+    flex-direction: row;
+    margin-left: 21.5vw;
+    margin-top: 10vh;
+   
+}
+#para{
+    margin-left: 20vw;
+    font-size: 1.3rem;
+    margin-top: 7vh;
+}
+#para1{
+    margin-left: -19vw;
+}
+#para2{
+    margin-left: -19vw;
+}
+#para3{
+    margin-left: -21vw;
+}
+#color{
+    background-color: white;
+    width: 60%;
+    margin-left: 16vw;
+    text-align: center;
+    height: 35vh;
+    border-radius: 20px;
+}
+#smallimg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+ 
+}
+.small{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 45px;
+    border: 2px solid rgb(225, 81, 81);
+}
+.big{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin-left: 15px;
+    border: 4px solid rgb(225, 81, 81);
+}
+#name{
+    font-size: 1.2rem;
+    color: #D97122;
+    font-weight: bold;
+}
+#bigimg{
+    margin-top: -5vh;
+}
