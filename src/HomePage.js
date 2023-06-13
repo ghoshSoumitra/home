@@ -3,6 +3,7 @@ import { Box, Heading, Text, VStack, Skeleton } from '@chakra-ui/react';
 import Navbar from './components/Navbar';
 import VideoCarousel from './components/VideoCarousel';
 import AstrologerCards from './components/AstrologerCards';
+import Slider from './components/Slider';
 import Chackra from './components/Chackra'
 import Footer from './components/Footer'
 //importing the styles
@@ -51,7 +52,7 @@ const HomePage = () => {
   
   
   return (
-    <div>
+    <div className='contain'>
     <div id='main'>
     <Box p={4} maxW="600px" mx="auto">
       <Navbar />
@@ -96,7 +97,7 @@ const HomePage = () => {
     </div>
     </div>
     <div id='images'>
-        <VideoCarousel videos={videoUrls} />
+   <Slider/>
       </div>
       <div >
         <img src={banner} alt='banner' id='banner' />
